@@ -1,0 +1,55 @@
+# Python genel
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg*
+.build/
+.dist/
+.eggs/
+*.egg-info/
+
+# Sanal ortamlar
+venv/
+.venv/
+ENV/
+env/
+
+# Test/araç cache
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Chainlit/local
+.chainlit/
+logs/
+
+# Ortam değişkenleri
+.env
+.env.local
+.env.*
+
+# Veri (ham ve ağır içerikler)
+# Ham PDF’leri git takibinden çıkar
+data/pdfs/**
+# İsteğe bağlı: kurum içi ham veri
+data/**/pdfs/**
+
+# (Not) TONL ve master_index varsayılan olarak izlenir.
+# Büyük/özel veri paylaşımlarında aşağıdaki satırları açabilirsiniz:
+# data/processed_tonl/*.tonl
+# data/master_index.tonl

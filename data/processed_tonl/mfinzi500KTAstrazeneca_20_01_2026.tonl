@@ -1,0 +1,303 @@
+DRUG[mfinzi500KTAstrazeneca_20_01_2026]
+  P[0]:
+    <SectionHeader>: <h1><b>K</b><b>ULLANMA TALİMATI</b></h1>
+    <Text>: <b>IMFINZI</b><b>TM</b> <b>500 mg/10</b> <b>mL infüzyonluk çözelti hazırlamak için konsantre</b> <b>Damar içine uygulanır.</b> <b>Steril</b>
+    <Text>: <i>Etkin madde:</i> Her bir flakon 10 mL içinde 500 mg durvalumab içerir.
+    <Text>: <i>Yardımcı maddeler</i><b>:</b> Histidin, histidin hidroklorür monohidrat, trehaloz dihidrat, polisorbat 80 (bitkisel kaynaklı), enjeksiyonluk su.
+    <Text>: Bu ilaç ek izlemeye tabidir. Bu üçgen yeni güvenlilik bilgisinin hızlı olarak belirlenmesini sağlayacaktır. Meydana gelen herhangi bir yan etkiyi raporlayarak yardımcı olabilirsiniz. Yan etkilerin nasıl raporlanacağını öğrenmek için 4. Bölümün sonuna bakabilirsiniz.
+    <SectionHeader>: <h3><b>Bu ilacı kullanmaya başlamadan önce bu KULLANMA TALİMATINI dikkatlice </b> <b>okuyunuz, çünkü sizin için önemli bilgiler içermektedir.</b></h3>
+    <ListItem>: <li block-type="ListItem"> <i>Bu kullanma talimatını saklayınız. Daha sonra tekrar okumaya ihtiyaç duyabilirsiniz.</i></li>
+    <ListItem>: <li block-type="ListItem"> <i>Eğer ilave sorularınız olursa, lütfen doktorunuza veya eczacınıza danışınız.</i></li>
+    <ListItem>: <li block-type="ListItem"> <i>Bu ilaç kişisel olarak sizin için reçete edilmiştir, başkalarına verm</i><i>eyiniz.</i></li>
+    <ListItem>: <li block-type="ListItem"> <i>Bu ilacın kullanımı sırasında, doktora veya hastaneye gittiğinizde </i><i>doktorunuza </i><i>bu ilacı </i> <i>kullandığınızı söyleyiniz.</i></li>
+    <ListItem>: <li block-type="ListItem"> <i>Bu talimatta yazılanlara aynen uyunuz. İlaç hakkında size önerilen dozun dışında </i><i>yüksek </i> <i>veya düşük </i><i>doz kullanmayınız.</i></li>
+    <SectionHeader>: <h3><b>Bu Kullanma Talimatında:</b></h3>
+    <ListItem>: <li block-type="ListItem"><i>1.</i> <i>IMFINZI</i><i>TM</i> <i>nedir ve ne için kullanılır</i><i>?</i></li>
+    <ListItem>: <li block-type="ListItem"><i>2.</i> <i>IMFINZI</i><i>TM</i><i>'</i><i>yi</i> <i>kullanmadan önce dikkat edilmesi gerekenler</i></li>
+    <ListItem>: <li block-type="ListItem"><i>3.</i> <i>IMFINZI</i><i>TM</i> <i>nasıl kullanılır</i><i>?</i></li>
+    <ListItem>: <li block-type="ListItem"><i>4.</i> <i>Olası yan etkiler nel</i><i>erdir?</i></li>
+    <ListItem>: <li block-type="ListItem"><i>5.</i> <i>IMFINZI</i><i>TM</i><i>'</i><i>nin saklanma</i><i>sı</i></li>
+    <SectionHeader>: <h4><b>Başlıkları yer almaktadır.</b></h4>
+    <SectionHeader>: <h3><b>1.</b> <b>IMFINZI</b><b>TM</b> <b>nedir ve ne için kullanılır</b><b>?</b></h3>
+    <ListItem>: <li block-type="ListItem"> IMFINZITM bir adet flakon içeren ambalajlarda kullanıma sunulmuştur.</li>
+    <ListItem>: <li block-type="ListItem"> IMFINZITM her flakonda 10 mL yoğunlaştırılmış infüzyon çözeltisinin içinde 500 mg (50 mg/mL) durvalumab içerir. IMFINZITM steril, koruyucu içermeyen, berrak ila opak arası, renksiz ila hafif sarı renkli, gözle görülebilir partiküller içermeyen çözeltidir.</li>
+    <ListItem>: <li block-type="ListItem"> IMFINZITM, bir bağışıklık proteini (monoklonal antikor: vücutta özel hedef maddeyi tanıması için dizayn edilmiş bir çeşit protein) olan durvalumab etkin maddesini içerir. IMFINZITM bağışıklık sisteminizin kanser ile savaşmasına yardımcı olarak etki gösterir.</li>
+    <Text>: IMFINZITM yetişkinlerde PD-L1 (vücutta bağışıklık sisteminin kanser hücrelerine karşı yeterince çalışmasına engel olan bir protein) düzeyi %1 ve üzeri olan, vücudun diğer bölgelerine sıçramadan akciğer içinde yayılmış, ameliyat ile çıkartılamayan, kemoterapi ve radyoterapi tedavisi sonrası ilerleme görülmeyen "küçük hücreli dışı akciğer kanseri (KHDAK)" adı verilen bir tür akciğer kanserini tedavi etmek ve yetişkinlerde akciğere (ya da vücudun diğer bölgelerine) yayılmış, daha önce tedavi edilmemiş yaygın evre küçük hücreli akciğer kanseri (YE-KHAK) adı verilen bir tür akciğer kanserini tedavi etmek için kullanılır.
+  P[1]:
+    <Text>: KHDAK durumunda fayda görmeniz halinde tedavi süresi bir yıla kadardır. Kanserde ilerleme olursa kesilmelidir. Eğer kanser hücrelerinizde EGFR, ALK ve ROS-1 isimli mutasyon (genetik hata) varsa IMFINZITM tedavinizde kullanılmayacaktır.
+    <Text>: IMFINZITM yetişkinlerde, ameliyatla çıkarılmamış, kemoterapi ve radyoterapi tedavisi sonrası ilerleme görülmeyen "sınırlı evre küçük hücreli akciğer kanseri (SE-KHAK)" adı verilen bir tür akciğer kanserini tedavi etmek için kullanılır. Fayda görmeniz halinde tedavi süresi 2 yıla kadardır. Kanserde ilerleme olursa ya da kabul edilemeyen bir yan etki gelişmişse IMFINZITM kesilmelidir.
+    <Text>: IMFINZITM ortak olarak safra yolu kanserleri (SYK) olarak adlandırılan bir tür safra kanalı (kolanjiyokarsinom) ve safra kesesi kanserini, hastalık safra kanallarınıza ve safra kesenize (veya vücudun diğer bölümlerine) yayıldığı durumlarda tedavi etmek için kullanılır.
+    <Text>: Tümörünüz MMR (yanlış-eşleşme onarımı) kusurlu ise uterus kanserinin tedavisinde kemoterapi (karboplatin ve paklitaksel) ile kombinasyon halinde ve sonrasında tek başına idame olarak IMFINZITM kullanımı, tümörün ötesine yayılan yeni tanı alan veya ameliyat sonrası tedaviden en az 1 yıl sonra tekrar eden (nüks) hastalarda, hastalığın ilerlemesine veya tolere edilemeyen yan etki gelişimine kadar kullanılır.
+    <Text>: IMFINZITM'nin nasıl etki gösterdiği veya bu ilacın neden size reçete edildiği hakkında sorularınız varsa doktorunuza sorunuz.
+    <Text>: IMFINZITM, KHDAK'niz akciğerinize yayılmışsa ve ameliyatla çıkarılabilecek durumdaysa, ameliyattan önce (neoadjuvan tedavi) platin bazlı kemoterapi ile kombinasyon halinde ve ameliyattan sonra (adjuvan tedavi) tek başına kullanılır.
+    <Text>: IMFINZITM, KHDAK, YE-KHAK ve SYK için kemoterapi ile kombinasyon halinde verilecektir. Almakta olduğunuz kemoterapiye ait kullanma talimatlarını da okumanız önem taşımaktadır. Bu ilaçlar hakkında başka sorularınız olursa, lütfen doktorunuza danışınız.
+    <SectionHeader>: <h3><b>2.</b> <b>IMFINZI</b><b>TM</b><b>'</b><b>yi</b> <b>kullanmadan önce dikkat edilmesi gerekenler</b></h3>
+    <SectionHeader>: <h3><b>IMFINZI</b><b>TM</b><b>'</b><b>yi</b> <b>aşağıdaki durumlarda KULLANMAYINIZ</b> Eğer:</h3>
+    <Text>: • Durvalumaba veya bu ilacın bileşiminde bulunan yardımcı maddelerden herhangi birine karşı alerjiniz varsa. Eğer emin değilseniz doktorunuzla konuşunuz.
+    <SectionHeader>: <h3><b>IMFINZI</b><b>TM</b><b>'</b><b>yi</b> <b>aşağıdaki durumlarda DİKKATLİ KULLANINIZ</b></h3>
+    <Text>: Eğer aşağıdaki durumlar sizin için geçerliyse IMFINZITM almadan önce doktorunuzla konuşunuz:
+    <ListItem>: <li block-type="ListItem"> Otoimmün bir hastalığınız varsa (vücudun bağışıklık sisteminin kendi hücrelerine saldırdığı bir hastalık),</li>
+    <ListItem>: <li block-type="ListItem"> Organ nakli olduysanız,</li>
+    <ListItem>: <li block-type="ListItem"> Akciğerleriniz ile ilgili sorunlarınız veya solunum sıkıntınız varsa,</li>
+    <ListItem>: <li block-type="ListItem"> Karaciğeriniz ile ilgili sorunlarınız varsa.</li>
+    <Text>: Size IMFINZITM verildiğinde, bazı ciddi yan etkiler yaşayabilirsiniz.
+  P[2]:
+    <Text>: Sizde aşağıdakilerden herhangi biri varsa hemen doktorunuzu arayınız veya doktorunuzla görüşünüz. Doktorunuz daha ağır komplikasyonları önlemek ve belirtileri azaltmak için size başka ilaçlar verebilir.
+    <Text>: Eğer sizde aşağıdaki yan etkilerden herhangi biri varsa, doktorunuz IMFINZITM'nin bir sonraki dozunu bekletebilir veya IMFINZITM ile tedavinizi durdurabilir:
+    <ListItem>: <li block-type="ListItem"> <b>Akciğer iltihabı:</b> Belirtileri arasında yeni veya kötüleşen öksürük, nefes darlığı veya göğüs ağrısı yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Karaciğer iltihabı:</b> Belirtileri arasında bulantı veya kusma, daha az aç hissetme, midenin sağ tarafında ağrı, derinin ve göz aklarının sararması, uyku sersemliği, idrarda koyulaşma veya normalden daha kolaylıkla kanama veya morarma yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Bağırsak iltihabı:</b> Belirtileri arasında ishal veya normalden daha fazla bağırsak hareketi, siyah, katranımsı, yapışkan dışkı veya kan veya mukus içeren dışkı, şiddetli mide ağrısı veya hassasiyeti, bağırsakta delik yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Hormon bezlerinin iltihabı</b> <b>(özellikle</b> <b>tiroid, böbrek üstü, hipofiz bezleri ve </b> <b>pankreas): </b>Belirtileri arasında hızlı kalp atışı, aşırı yorgunluk, kilo alma veya kilo verme, sersemlik hali veya bayılma, saç kaybı, üşüme hissi, kabızlık, düzelmeyen baş ağrısı veya alışılmadık baş ağrısı, karın ağrısı, bulantı ve kusma yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Tip 1 diyabet: </b>Belirtileri arasında yüksek kan şekeri, normalden daha fazla aç veya susuz hissetme, normalden daha fazla idrara çıkma, hızlı ve derin nefes alma, kafa karışıklığı veya nefesinizde tatlı bir koku, ağzınızda tatlı veya metalik bir tat veya idrarınıza veya terinize farklı bir koku yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Böbrek iltihabı</b>: Belirtileri arasında idrarın miktarında azalma yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Deri iltihabı</b>: Belirtileri arasında döküntü, kaşıntı, deride kabarcıklanma veya ağız veya diğer nemli yüzeylerde yaralar yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Kalp kası iltihabı</b>: Belirtileri arasında göğüs ağrısı, nefes darlığı veya düzensiz kalp atışı yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Kas iltihabı</b> <b>veya sorunları</b><b>: </b>Belirtileri arasında kas ağrısı,kaslarda sertlik veya güçsüzlük ya da kasların hızlı yorulması yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>O</b><b>murilik iltihabı (transvers miyelit)</b>: Belirtileri arasında kollarda veya bacaklarda ağrı, uyuşma, karıncalanma veya güçsüzlük; daha sık idrara çıkma ihtiyacı, idrar tutamama, idrar yapmada zorluk ve kabızlık dahil olmak üzere mesane veya bağırsak sorunları yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>İnfüzyon ile ilişkili reaksiyonlar:</b> Belirtileri arasında ürperme veya titreme, kaşıntı veya döküntü, yüzde belirgin kızarma, nefes darlığı veya hırıltı, sersemlik hali veya ateş yer alabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Beyin iltihabı</b> <b>(ensefalit)</b> <b>ya da beyin ve omurilik çevresinde</b><b>ki zarın</b> <b>iltiha</b><b>bı</b> <b>(menenjit):</b> Belirtileri arasında nöbetler, boyun sertliği, baş ağrısı, ateş, üşüme, kusma, gözlerde ışığa karşı hassasiyet, zihin bulanıklığı ve uyuklama sayılabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Sinirlerde iltihap:</b> Belirtileri arasında ağrı, güçsüzlük ve uzuvlarda felç (Guillain-Barré sendromu) bulunabilir.</li>
+    <ListItem>: <li block-type="ListItem"> <b>Eklem inflamasyonu:</b> Belirti ve bulgular eklemde ağrı, şişlik ve/veya katılıktan oluşur (immün-aracılı artrit)</li>
+    <ListItem>: <li block-type="ListItem"> <b>Göz inflamasyonu</b>: Belirti ve bulgular gözde kızarıklık, gözde ağrı, ışık duyarlılığı ve/veya görme değişikliklerini içerir (üveit)</li>
+    <ListItem>: <li block-type="ListItem"> <b>Düşük platelet (kan pulcuğu) sayısı: </b>Belirtiler kanama (burun veya diş eti kanaması) ve/veya morarmayı içerebilir.</li>
+  P[3]:
+    <Text>: • <b>T</b><b>estlerde düşük kırmızı kan hücresi sayısı: </b>Belirtiler nefes darlığı, halsizlik, deride solukluk ve/veya hızlı kalp atımını kapsayabilir. IMFINZI, başka bir kanser ilacı olan olaparib ile birlikte kullanıldığında, vücudun yeterince kırmızı kan hücresi üretememesi ya da bağışıklık sisteminin kırmızı kan hücrelerini aşırı yıkımıyla ilgili bir sorunun belirtisi olabilir.
+    <Text>: Bu uyarılar geçmişteki herhangi bir dönemde dahi olsa sizin için geçerliyse lütfen doktorunuza danışınız.
+    <Text>: IMFINZI<b>TM </b>bağışıklık sisteminiz üzerine etki eder. Vücudunuzda iltihaplanmaya neden olabilir. Halihazırda oto-immün bir hastalığınız (vücudun kendi hücrelerine saldırdığı bir durum) varsa bu yan etkiler için riskiniz daha yüksek olabilir. Aynı zamanda, oto-immün hastalığınızda sık alevlenmeler yaşayabilirsiniz; bu olguların büyük kısmı hafiftir.
+    <Text>: Biyoteknolojik ürünlerin takip edilebilirliğinin sağlanması için uygulanan ürünün ticari ismi ve seri numarası mutlaka hasta dosyasına kaydedilmelidir.
+    <SectionHeader>: <h3><b>IMFINZI</b><b>TM</b><b>'</b><b>nin</b> <b>yiyecek ve içecek ile kullanılması: </b></h3>
+    <Text>: IMFINZITM tedavisi ile yiyecek ya da içecekler arasında etkileşim meydana gelmesi olası değildir.
+    <SectionHeader>: <h3><b>Hamilelik</b></h3>
+    <Text>: <i>İlacı kullanmadan önce doktorunuza veya eczacınıza danışınız.</i>
+    <Text>: Bu ilaç hamilelik sırasında önerilmemektedir.
+    <Text>: Hamileyseniz, hamile olabileceğinizi düşünüyorsanız veya hamile kalmayı planlıyorsanız IMFINZITM kullanılması tavsiye edilmez.
+    <Text>: IMFINZITM kullanırken hamile kalmamak için uygun doğum kontrol yöntemleri kullanınız. Hamile kalabilecek kadınların IMFINZITM ile tedavi sırasında ve son dozdan sonra en az 3 ay süreyle etkili bir doğum kontrol yöntemi kullanmaları gerekmektedir.
+    <Text>: Hamileyseniz, hamile olma ihtimaliniz varsa ya da hamile kalmayı planlıyorsanız IMFINZITM'yi kullanmadan önce doktorunuza veya eczacınıza danışınız.
+    <Text>: <i>Tedaviniz sırasında hamile olduğunuzu fark ederseniz hemen doktorunuza veya eczacınıza </i> <i>danışınız.</i>
+    <SectionHeader>: <h4><b>Emzirme</b></h4>
+    <Text>: <i>İlacı kullanmadan önce doktorunuza veya eczacınıza danışınız.</i>
+    <Text>: Emziriyorsanız doktorunuzla konuşunuz.
+    <Text>: Doktorunuza IMFINZITM tedavisi sırasında veya sonrasında emzirebilme durumunuzu sorunuz.
+    <Text>: IMFINZITM'nin anne sütüne geçip geçmediği bilinmemektedir.
+    <SectionHeader>: <h4><b>Araç ve makine kullanımı</b></h4>
+    <Text>: IMFINZITM'nin araç ve makine kullanma yeteneğinizi etkilemesi olası değildir.
+    <Text>: Bununla birlikte, konsantre olma ve tepki gösterme becerinizi etkileyen yan etkiler yaşarsanız, araç veya makine kullanırken dikkatli olmanız gerekir.
+  P[4]:
+    <SectionHeader>: <h2><b>IMFINZI</b><b>TM</b><b>'n</b><b>in</b> <b>içeriğinde bulunan bazı yardımcı maddeler hakkında önemli bilgiler</b></h2>
+    <Text>: IMFINZITM'nin içeriğinde özel uyarı gerektiren herhangi bir yardımcı madde bulunmamaktadır.
+    <SectionHeader>: <h4><b>Diğer ilaçlar ile birlikte kullanımı</b></h4>
+    <Text>: Başka ilaçlar kullanıyorsanız, yakın zamanda kullandıysanız veya kullanma ihtimaliniz varsa doktorunuza söyleyiniz. Aynı durum reçetesiz temin edilen ilaçlar ve bitkisel ilaçlar için de geçerlidir.
+    <Text>: <i>Eğer reçeteli ya da reçetesiz herhangi bir ilacı şu anda kullanıyorsanız veya son zamanlarda </i> <i>kullandınızsa lütfen doktorunuza veya eczacınıza bunlar hakkında bilgi veriniz.</i>
+    <SectionHeader>: <h3><b>3. IMFINZI</b><b>TM</b> <b>nasıl kullanılır</b><b>?</b></h3>
+    <Text>: • IMFINZITM size hastanede veya klinikte, deneyimli bir doktorun gözetimi altında uygulanacaktır.
+    <SectionHeader>: <h4><b>Uygun kullanım ve doz/uygulama sıklığı için talimatlar:</b></h4>
+    <Text>: • IMFINZITM için önerilen doz 2 haftada bir 10 mg/kg vücut ağırlığı, 4 haftada bir 20mg/kg, 3 haftada bir 1.120 mg ve 3-4 haftada bir 1.500 mg'dır.IMFINZITM aynı gün kemoterapiden önce uygulanır.
+    <SectionHeader>: <h3><b>Uygulama yolu ve metodu:</b></h3>
+    <ListItem>: <li block-type="ListItem"> Doktorunuz size IMFINZITM'yi yaklaşık 1 saat boyunca damarınıza (IV) infüzyon yoluyla uygulayacaktır.</li>
+    <ListItem>: <li block-type="ListItem"> IMFINZITM tedavisine kaç defa ihtiyacınız olduğuna doktorunuz karar verecektir.</li>
+    <ListItem>: <li block-type="ListItem"> Kanser türünüze bağlı olarak, IMFINZITM diğer antikanser ilaçlarla kombinasyon halinde verilebilir.</li>
+    <ListItem>: <li block-type="ListItem"> IMFINZITM akciğer veya endometriyum kanseriniz için kemoterapi ile birlikte verildiğinde, size önce IMFINZITM, ardından kemoterapi verilecektir.</li>
+    <ListItem>: <li block-type="ListItem"> Diğer antikanser ilaçlarının kullanımını anlamak için bu diğer ilaçların kullanma talimatına bakınız. Bu ilaçlar hakkında sorularınız varsa doktorunuza danışınız.</li>
+    <SectionHeader>: <h4><b>Değişik yaş grupları:</b></h4>
+    <SectionHeader>: <h4><b>Çocuklarda kullanımı</b><b>:</b></h4>
+    <Text>: IMFINZITM 18 yaşın altındaki ergenlerde ve çocuklarda kullanılmamalıdır çünkü bu hastalarda kullanımı üzerine çalışılmamıştır.
+    <SectionHeader>: <h4><b>Yaşlılarda kullanımı</b><b>:</b></h4>
+    <Text>: Yaşlı hastalar için doz ayarlaması gerekli değildir.
+    <SectionHeader>: <h3><b>Özel kullanım durumları:</b></h3>
+    <SectionHeader>: <h4><b>Böbrek yetmezliği:</b></h4>
+    <Text>: Hafif ve orta derece böbrek yetmezliği olan hastalarda doz ayarlaması gerekli değildir. Şiddetli böbrek yetmezliği olan hastalardaki veriler sınırlıdır.
+    <SectionHeader>: <h4><b>Karaciğer yetmezliği:</b></h4>
+    <Text>: Hafif ve orta dereceli karaciğer yetmezliği olan hastalarda doz ayarlaması gerekli değildir. IMFINZITM'nin ağır derecede karaciğer yetmezliği olan hastalardaki verisi sınırlıdır.
+  P[5]:
+    <Text>: <i>Eğer </i><i>IMFINZI</i><i>TM</i><i>'n</i><i>in</i> <i>etkisinin çok güçlü veya zayıf olduğuna dair bir izleniminiz var ise </i> <i>doktorunuz veya eczacınız ile konuşunuz.</i>
+    <SectionHeader>: <h3><b>Kullanmanız gerekenden daha fazla </b><b>IMFINZI</b><b>TM</b> <b>kullandıysanız:</b></h3>
+    <Text>: Eğer yanlışlıkla reçete edilenden daha yüksek bir IMFINZITM dozu uygulanmış olduğundan şüphelenirseniz, tavsiyesini almak için doktorunuzla iletişime geçiniz.
+    <Text>: <i>IMFINZI</i><i>TM</i><i>'d</i><i>en</i> <i>kullanmanız gerekenden fazlasını kullanmışsanız bir doktor veya eczacı ile </i> <i>konuşunuz.</i>
+    <SectionHeader>: <h3><b>IMFINZI</b><b>TM</b><b>'y</b><b>i</b> <b>kullanmayı unutursanız:</b></h3>
+    <Text>: IMFINZITM alacağınız bir randevuyu unutursanız, randevunuzu tekrar planlamak için hemen doktorunuzu arayınız.
+    <Text>: Bu ilacın bir dozunu dahi atlamamanız çok önemlidir.
+    <Text>: Tedavinizle ilgili başka sorularınız varsa doktorunuza sorunuz.
+    <Text>: <i>Unutulan dozları dengelemek için çift doz uygulamayınız.</i>
+    <SectionHeader>: <h2><b>IMFINZI</b><b>TM</b> <b>ile tedavi sonlandırıldığında oluşabilecek etkiler: </b></h2>
+    <Text>: Doktorunuz ile görüşmeden IMFINZITM kullanmayı durdurmayınız.
+    <SectionHeader>: <h4><b>4. Olası </b><b>yan etkiler nelerdir?</b></h4>
+    <Text>: Tüm ilaçlar gibi, IMFINZITM'nin içeriğinde bulunan maddelere duyarlı olan kişilerde yan etkiler olabilir; fakat yan etkiler herkeste görülmez.
+    <Text>: Size IMFINZITM uygulandığında, bazı ciddi yan etkiler yaşayabilirsiniz (bkz. Bölüm 2).
+    <Text>: Durvalumab ile gerçekleştirilen klinik çalışmalarda bildirilmiş olan aşağıdaki yan etkilerden herhangi birini yaşarsanız hemen doktorunuzla konuşunuz:
+    <Text>: Yan etkiler aşağıdaki kategorilerde gösterildiği şekilde sıralanmıştır:
+    <Text>: Çok yaygın : 10 hastanın en az 1'inde görülebilir.
+    <Text>: Yaygın : 10 hastanın birinden az, fakat 100 hastanın birinden fazla görülebilir. Yaygın olmayan : 100 hastanın birinden az, fakat 1.000 hastanın birinden fazla görülebilir. Seyrek : 1.000 hastanın birinden az, fakat 10.000 hastanın birinden fazla görülebilir.
+    <Text>: Çok seyrek : 10.000 hastanın birinden az görülebilir.
+    <Text>: Bilinmiyor : Eldeki verilerden hareketle sıklık derecesi tahmin edilemiyor.
+    <SectionHeader>: <h4><b>Aşağıdakilerden biri olursa, IMFINZ</b><b>I</b> <b>TM</b><b>'yi kullanmayı durdurunuz ve DERHAL </b> <b>doktorunuza bildiriniz veya size en yakın hastanenin acil bölümüne başvurunuz:</b></h4>
+    <ListItem>: <li block-type="ListItem"> Akciğer iltihabı (pnömonit)</li>
+    <ListItem>: <li block-type="ListItem"> Karaciğer iltihabı</li>
+    <ListItem>: <li block-type="ListItem"> Bağırsak iltihabı</li>
+    <ListItem>: <li block-type="ListItem"> Hormon bezlerinin iltihabı (özellikle tiroid, böbrek üstü, hipofiz bezleri ve pankreas)</li>
+    <ListItem>: <li block-type="ListItem"> Tip I diyabet</li>
+    <ListItem>: <li block-type="ListItem"> Böbrek iltihabı</li>
+    <ListItem>: <li block-type="ListItem"> Deri iltihabı</li>
+    <ListItem>: <li block-type="ListItem"> Kalp kası iltihabı</li>
+    <ListItem>: <li block-type="ListItem"> Kas iltihabı</li>
+    <ListItem>: <li block-type="ListItem"> Omurilik iltihabı (transvers miyelit)</li>
+  P[6]:
+    <ListItem>: <li block-type="ListItem"> İnfüzyon ile ilişkili reaksiyonlar</li>
+    <ListItem>: <li block-type="ListItem"> Beyin iltihabı (ensefalit) ya da beyin ve omurilik çevresindeki zarda iltihap (menenjit)</li>
+    <ListItem>: <li block-type="ListItem"> Sinirlerde iltihap</li>
+    <Text>: Bunların hepsi çok ciddi yan etkilerdir.
+    <Text>: Eğer bunlardan biri sizde mevcut ise, acil tıbbi müdahaleye veya hastaneye yatırılmanıza gerek olabilir.
+    <Text>: <b>Sadece IMFINZI</b><b>TM</b> <b>alan hastalarla yapılan klinik çalışmalarda bildirilen aşağıdaki yan </b> <b>etkilerden herhangi birini fark ederseniz, hemen doktorunuza bildiriniz veya size en </b> <b>yakın hastanenin acil bölümüne başvurunuz: </b>
+    <SectionHeader>: <h4><b>Çok yaygın </b></h4>
+    <ListItem>: <li block-type="ListItem"> Üst solunum yolu enfeksiyonları</li>
+    <ListItem>: <li block-type="ListItem"> Yorgunluğa veya kilo almaya neden olabilen normalden az çalışan tiroid bezi</li>
+    <ListItem>: <li block-type="ListItem"> Öksürük</li>
+    <ListItem>: <li block-type="ListItem"> İshal</li>
+    <ListItem>: <li block-type="ListItem"> Karın ağrısı</li>
+    <ListItem>: <li block-type="ListItem"> Deride döküntü veya kaşıntı</li>
+    <ListItem>: <li block-type="ListItem"> Eklem ağrısı (artralji)</li>
+    <ListItem>: <li block-type="ListItem"> Ateş</li>
+    <SectionHeader>: <h4><b>Yaygın </b></h4>
+    <ListItem>: <li block-type="ListItem"> Ciddi akciğer enfeksiyonları (zatürre)</li>
+    <ListItem>: <li block-type="ListItem"> Grip benzeri hastalık</li>
+    <ListItem>: <li block-type="ListItem"> Ağızda mantar enfeksiyonu</li>
+    <ListItem>: <li block-type="ListItem"> Diş ve ağız yumuşak dokusunda enfeksiyonlar</li>
+    <ListItem>: <li block-type="ListItem"> Hızlı kalp atışına veya kilo kaybına neden olabilen normalden fazla çalışan tiroid bezi</li>
+    <ListItem>: <li block-type="ListItem"> Akciğerlerin iltihabı (pnömonit)</li>
+    <ListItem>: <li block-type="ListItem"> Ses kısıklığı (disfoni)</li>
+    <ListItem>: <li block-type="ListItem"> Mide bulantısına veya daha az açlık hissine neden olabilen karaciğer iltihabı (hepatit)</li>
+    <ListItem>: <li block-type="ListItem"> Anormal karaciğer testleri (aspartat aminotransferazda artış, alanin aminotransferazda artış)</li>
+    <ListItem>: <li block-type="ListItem"> Gece terlemeleri</li>
+    <ListItem>: <li block-type="ListItem"> Kas ağrısı (miyalji)</li>
+    <ListItem>: <li block-type="ListItem"> Anormal böbrek fonksiyon testleri (kan kreatininde artış)</li>
+    <ListItem>: <li block-type="ListItem"> Ağrılı idrar yapma (dizüri)</li>
+    <ListItem>: <li block-type="ListItem"> Bacaklarda şişme (periferik ödem)</li>
+    <ListItem>: <li block-type="ListItem"> Ateş veya yüzde belirgin kızarıklığa neden olabilen, ilacın infüzyonuna karşı gelişen reaksiyon</li>
+    <SectionHeader>: <h4><b>Yaygın olmayan</b></h4>
+    <ListItem>: <li block-type="ListItem"> Bağışıklık tepkisi nedeniyle oluşan düşük kan trombosit sayısı(immün trombositopeni)</li>
+    <ListItem>: <li block-type="ListItem"> Tiroid bezinin iltihabı (tiroidit)</li>
+    <ListItem>: <li block-type="ListItem"> Böbrek üstü bezler tarafından üretilen hormonların üretiminde yorgunluğa neden olabilen azalma</li>
+    <ListItem>: <li block-type="ListItem"> Hipofiz bezinin az çalışması; hipofiz bezinin iltihabı</li>
+  P[7]:
+    <ListItem>: <li block-type="ListItem"> Yüksek kan şekeri seviyelerine yol açan bir durum (tip 1 diabetes mellitus)</li>
+    <ListItem>: <li block-type="ListItem"> Kasların zayıfladığı ve kasların hızla yorulduğu bir durum (myastenia gravis)</li>
+    <ListItem>: <li block-type="ListItem"> Beyin iltihabı (ensefalit)</li>
+    <ListItem>: <li block-type="ListItem"> Kalp iltihabı (miyokardit)</li>
+    <ListItem>: <li block-type="ListItem"> Akciğerde yara dokusu oluşumu</li>
+    <ListItem>: <li block-type="ListItem"> Bağırsak iltihabı (kolit)</li>
+    <ListItem>: <li block-type="ListItem"> Pankreas iltihabı (pankreatit)</li>
+    <ListItem>: <li block-type="ListItem"> Cilt iltihabı (dermatit)</li>
+    <ListItem>: <li block-type="ListItem"> Kalınlaşmış cildin kırmızı, kaşıntılı, kuru, pullu lekeleri (sedef hastalığı)</li>
+    <ListItem>: <li block-type="ListItem"> Ciltte kabarcıklar (pemfigoid)</li>
+    <ListItem>: <li block-type="ListItem"> Kas iltihabı (miyozit)</li>
+    <ListItem>: <li block-type="ListItem"> Eklem iltihabı (bağışıklık aracılı artrit)</li>
+    <ListItem>: <li block-type="ListItem"> İdrar miktarında azalmaya neden olabilen böbrek iltihabı (nefrit)</li>
+    <ListItem>: <li block-type="ListItem"> Mesane iltihabı (sistit). Belirti ve semptomlar arasında sık ve/veya ağrılı idrara çıkma, ani idrar yapma isteği, idrarda kan, alt karında ağrı veya basınç yer alabilir</li>
+    <SectionHeader>: <h4><b>Seyrek </b></h4>
+    <ListItem>: <li block-type="ListItem"> Şekersiz şeker hastalığı</li>
+    <ListItem>: <li block-type="ListItem"> Göz iltihabı (üveit)</li>
+    <ListItem>: <li block-type="ListItem"> Omurilik ve beyin etrafındaki zarın inflamasyonu (menenjit)</li>
+    <ListItem>: <li block-type="ListItem"> Çölyak hastalığı (gluten içeren yiyecekleri tükettikten sonra mide ağrısı, ishal ve şişkinlik gibi semptomlarla karakterize)</li>
+    <ListItem>: <li block-type="ListItem"> Kaslarda ağrıya veya sertliğe neden olan iltihaplanma (polimiyalji romatika)</li>
+    <ListItem>: <li block-type="ListItem"> Kas ve damar iltihabı (polimiyozit)</li>
+    <ListItem>: <li block-type="ListItem"> Pankreas tarafından yapılan sindirim enzimlerinin eksikliği veya azalması (pankreas ekzokrin yetmezliği)</li>
+    <SectionHeader>: <h4><b>Bilinmiyor</b></h4>
+    <ListItem>: <li block-type="ListItem"> Sinir iltihabı: (Guillain-Barré sendromu)</li>
+    <ListItem>: <li block-type="ListItem"> Omuriliğin bir parçasının inflamasyonu (transvers miyelit).</li>
+    <Text>: Kemoterapi ile birlikte IMFINZITM alan hastalarda yapılan klinik çalışmalarda tek başına IMFINZI TM alan hastalara ek olarak aşağıdaki yan etkiler bildirilmiştir (yan etkilerin sıklığı ve şiddeti alınan kemoterapi ajanına bağlı olarak değişebilir):
+    <SectionHeader>: <h4><b>Çok yaygın</b></h4>
+    <ListItem>: <li block-type="ListItem"> Düşük beyaz kan hücresi sayısı</li>
+    <ListItem>: <li block-type="ListItem"> Düşük kırmızı kan hücresi sayısı</li>
+    <ListItem>: <li block-type="ListItem"> Düşük trombosit sayısı</li>
+    <ListItem>: <li block-type="ListItem"> Bulantı, kusma, kabızlık,</li>
+    <ListItem>: <li block-type="ListItem"> Saç dökülmesi</li>
+    <ListItem>: <li block-type="ListItem"> Daha az acıkma</li>
+    <ListItem>: <li block-type="ListItem"> Yorgunluk veya güçsüzlük hissi</li>
+    <ListItem>: <li block-type="ListItem"> Sinirlerde uyuşma, güçsüzlük, karıncalanma veya kol ve bacaklarda yanma tarzında ağrıya neden olan inflamasyonu (periferik nöropati)</li>
+    <SectionHeader>: <h4><b>Y</b><b>aygın </b></h4>
+    <Text>: • Ateş belirtileri ile birlikte beyaz kan hücrelerinin sayısında düşüklük (febril nötropeni)
+  P[8]:
+    <Text>: • Ağız veya dudaklarda iltihap (stomatit)
+    <SectionHeader>: <h4><b>Yaygın olmayan</b></h4>
+    <Text>: • Düşük kırmızı kan hücresi, beyaz kan hücresi ve trombosit sayısı (pansitopeni)
+    <Text>: IMFINZI<b>TM</b>'yi tremelimumab ve platin bazlı kemoterapi ile birlikte kullanan hastalarda yapılan klinik çalışmalarda, IMFINZI<b>TM</b>'nin tek başına alınmasına bağlı olarak aşağıdaki ek yan etkiler bildirilmiştir (yan etkilerin sıklığı ve şiddeti, alınan kemoterapi ajanlarına bağlı olarak değişiklik gösterebilir):
+    <SectionHeader>: <h4><b>Çok yaygın </b></h4>
+    <ListItem>: <li block-type="ListItem"> Düşük kırmızı kan hücresi sayısı</li>
+    <ListItem>: <li block-type="ListItem"> Düşük beyaz kan hücresi sayısı</li>
+    <ListItem>: <li block-type="ListItem"> Düşük kan trombosit sayısı</li>
+    <ListItem>: <li block-type="ListItem"> Daha az açlık hissetme</li>
+    <ListItem>: <li block-type="ListItem"> Bulantı; kusma; kabızlık</li>
+    <ListItem>: <li block-type="ListItem"> Saç dökülmesi</li>
+    <ListItem>: <li block-type="ListItem"> Yorgun veya halsiz hissetme</li>
+    <SectionHeader>: <h4><b>Yaygın </b></h4>
+    <ListItem>: <li block-type="ListItem"> Ateş belirtileriyle birlikte düşük beyaz kan hücresi sayısı (febril nötropeni)</li>
+    <ListItem>: <li block-type="ListItem"> Düşük kırmızı kan hücresi, beyaz kan hücresi ve trombosit sayısı (pansitopeni)</li>
+    <ListItem>: <li block-type="ListItem"> Kol ve bacaklarda uyuşma, güçsüzlük, karıncalanma veya yanma ağrısına neden olan sinir iltihabı (periferik nöropati)</li>
+    <ListItem>: <li block-type="ListItem"> Ağız veya dudak iltihabı (stomatit)</li>
+    <ListItem>: <li block-type="ListItem"> Anormal pankreas fonksiyon testleri</li>
+    <SectionHeader>: <h4><b>Bilinmiyor</b></h4>
+    <Text>: • Bağırsakta delik (bağırsak delinmesi)
+    <Text>: IMFINZI<b>TM</b>'yi tremelimumab ile birlikte kullanan hastalarda yapılan klinik çalışmalarda, IMFINZI<b>TM</b>'nin tek başına alınmasına bağlı olarak aşağıdaki ek yan etkiler bildirilmiştir:
+    <SectionHeader>: <h4><b>Yaygın</b></h4>
+    <Text>: • Anormal pankreas fonksiyon testleri
+    <SectionHeader>: <h4><b>Bilinmiyor</b></h4>
+    <Text>: • Bağırsakta delik (bağırsak delinmesi)
+    <Text>: Platin-bazlı kemoterapi ile kombinasyonda IMFINZI<b>TM</b>'yi takiben olaparib ile birlikte IMFINZI<b>TM</b> alan hastalarda yapılan klinik çalışmalarda tek başına IMFINZI<b>TM</b> alan hastalara ek olarak aşağıdaki yan etkiler bildirilmiştir:
+  P[9]:
+    <SectionHeader>: <h3><b>Çok yaygın </b></h3>
+    <ListItem>: <li block-type="ListItem"> Kırmızı kan hücrelerinin sayısında düşüklük</li>
+    <ListItem>: <li block-type="ListItem"> Beyaz kan hücrelerinin sayısında düşüklük (nötropeni ve lökopeni)</li>
+    <ListItem>: <li block-type="ListItem"> Trombosit sayısında düşüklük</li>
+    <ListItem>: <li block-type="ListItem"> Daha az açlık hissetme</li>
+    <ListItem>: <li block-type="ListItem"> Sinirlerde uyuşma, güçsüzlük, karıncalanma veya kol ve bacaklarda yanma tarzında ağrıya neden olan inflamasyon (periferik nöropati)</li>
+    <ListItem>: <li block-type="ListItem"> Bulantı, kusma, konstipasyon</li>
+    <ListItem>: <li block-type="ListItem"> Sersemlik</li>
+    <ListItem>: <li block-type="ListItem"> Baş ağrısı</li>
+    <ListItem>: <li block-type="ListItem"> Yiyeceklerin tadında değişiklik (disguzi)</li>
+    <ListItem>: <li block-type="ListItem"> Nefes darlığı (dispne)</li>
+    <ListItem>: <li block-type="ListItem"> Ağız ve dudakların inflamasyonu (stomatit)</li>
+    <ListItem>: <li block-type="ListItem"> Saç dökülmesi</li>
+    <ListItem>: <li block-type="ListItem"> Yorgunluk veya güçsüzlük hissi</li>
+    <SectionHeader>: <h4><b>Yaygın</b></h4>
+    <ListItem>: <li block-type="ListItem"> Ateşle birlikte beyaz kan hücrelerinin sayısında düşüklük (febril nötropeni)</li>
+    <ListItem>: <li block-type="ListItem"> Beyaz kan hücrelerinin bir tipi olan lenfosit düzeylerinin düşüklüğü</li>
+    <ListItem>: <li block-type="ListItem"> Alerjik reaksiyonlar</li>
+    <ListItem>: <li block-type="ListItem"> Hazımsızlık veya göğüste yanma hissi (dispepsi)</li>
+    <ListItem>: <li block-type="ListItem"> Derin vende, genellikle bacakta olmak üzere, bacaklarda ağrı veya şişlik semptomlarına yol açabilen kan pıhtısı</li>
+    <ListItem>: <li block-type="ListItem"> Kırmızı kan hücresi üretiminde nefes darlığı, halsizlik, deride solukluk veya hızlı kalp atımı semptomlarına yol açabilen yetersizlik (saf kırmızı hücre aplazisi)</li>
+    <SectionHeader>: <h4><b>Yaygın olmayan </b></h4>
+    <Text>: • Kırmızı kan hücreleri, beyaz kan hücreleri ve trombosit sayısında düşüklük (pansitopeni)
+    <Text>: Bunların hepsi ciddi yan etkilerdir. Acil tıbbi müdahale gerekebilir.
+    <Text>: <i>E</i><i>ğer bu kullanma talimatında bahsi geçmeyen herhangi bir yan etki ile karşılaşırsanız </i> <i>doktorunuzu veya eczacınızı bilgilendiriniz.</i>
+    <SectionHeader>: <h4>Yan etkilerin raporlanması</h4>
+    <Text>: Kullanma Talimatında yer alan veya almayan herhangi bir yan etki meydana gelmesi durumunda hekiminiz, eczacınız veya hemşireniz ile konuşunuz. Ayrıca karşılaştığınız yan etkileri www.titck.gov.tr sitesinde yer alan "İlaç Yan Etki Bildirimi" ikonuna tıklayarak ya da 0 800 314 00 08 numaralı yan etki bildirim hattını arayarak Türkiye Farmakovijilans Merkezi (TÜFAM)'ne bildiriniz. Meydana gelen yan etkileri bildirerek kullanmakta olduğunuz ilacın güvenliliği hakkında daha fazla bilgi edinilmesine katkı sağlamış olacaksınız.
+    <SectionHeader>: <h3><b>5.</b> <b>IMFINZI</b><b>TM</b><b>'</b><b>nin s</b><b>aklanması</b></h3>
+    <Text>: <i>IMFINZI</i><i>TM</i><i>'</i><i>yi</i> <i>çocukların göremeyeceği, erişemeyeceği yerlerde ve ambalajında saklayınız.</i> <b>Son kullanma tarihi ile uyumlu olarak kullanınız.</b>
+    <Text>: IMFINZITM, size, hastane veya klinikte uygulanacaktır ve ürünün saklama sıcaklığından Sağlık Çalışanı sorumludur. Saklama koşulu detayları aşağıdaki gibidir:
+  P[10]:
+    <Text>: <i>Flakonun</i> <i>ve kartonun üzerinde belirtilen</i> <i>son kullanma tarihinden sonra IMFINZI</i><i>TM</i><i>'y</i><i>i</i> <i>kullanmayınız.</i>
+    <Text>: Son kullanma tarihi belirtilen ayın son gününü ifade etmektedir.
+    <Text>: 2ºC - 8ºC arasında buzdolabında saklayınız.
+    <Text>: Dondurmayınız. Çalkalamayınız.
+    <Text>: Işıktan korumak için orijinal ambalajında saklayınız.
+    <Text>: Ürünün renginde bozukluk, bulanıklık veya içerisinde görünür partiküller gördüğünüzde IMFINZITM' yi kullanmayınız.
+    <Text>: Eğer üründe ve/veya ambalajında bozukluklar fark ederseniz IMFINZITM'yi kullanmayınız.
+    <Text>: <i>Çevreyi korumak amacı ile kullanmadığınız </i><i>IMFINZI</i><i>TM</i><i>'y</i><i>i</i> <i>şehir suyuna veya çöpe atmayınız. </i> <i>Bu konuda eczacınıza danışınız.</i>
+    <Text>: Son kullanma tarihi geçmiş veya kullanılmayan ilaçları çöpe atmayınız! Çevre Şehircilik ve İklim Değişikliği Bakanlığınca belirlenen toplama sistemine veriniz.
+    <Text>: Bu ilaçla ilgili ayrıntılı ve güncel bilgilere, akıllı telefon/tablet veya bir karekod okuyucu ile karekodu tarayarak ulaşabilirsiniz.
+    <SectionHeader>: <h4><i>Ruhsat sahibi:</i></h4>
+    <Text>: AstraZeneca İlaç San. ve Tic. Ltd.Şti. Şişli/İstanbul
+    <Text>: <i>Üretim yeri: </i>AstraZeneca AB
+    <Text>: Gärtunavägen-Södertälje, 152 57/ İsveç
+    <Text>: <i>Bu kullanma talimatı</i><i>..</i> <i>/../</i> <i>....</i><i>tarihinde onaylanmıştır.</i>
+    <Text>: &lt;--------------------------------------------------------------------------------------------------------------&gt;
+    <SectionHeader>: <h1><b>AŞAĞIDAKİ BİLGİLER SADECE SAĞLIK PROFESYONELLERİNE </b> <b>YÖNELİKTİR:</b></h1>
+    <Text>: İnfüzyonun hazırlanması ve uygulanması
+    <ListItem>: <li block-type="ListItem"> Parenteral tıbbi ürünler partikül madde ve renk bozukluğuna karşı görsel olarak incelenmelidir. Bu konsantre çözelti, berrak ila opak arası, renksiz ila hafif sarı renkli, gözle görülebilir partiküller içermeyen çözeltidir. Eğer çözelti bulanıksa, renk bozukluğu varsa veya gözle görülür partiküller gözleniyorsa flakonu imha ediniz.</li>
+    <ListItem>: <li block-type="ListItem"> Flakonu çalkalamayınız.</li>
+    <ListItem>: <li block-type="ListItem"> Flakondan (flakonlardan) gereken hacimde konsantre çözeltiyi çekiniz ve nihai konsantrasyonu 1 ila 15 mg/mL arası olan bir çözelti hazırlamak üzere 9 mg/mL sodyum klorür (%0,9) veya 50 mg/mL glukoz (%5) içeren bir intravenöz infüzyon torbasına aktarınız. Hafifçe ters-düz ederek seyreltilmiş çözeltiyi karıştırınız.</li>
+    <ListItem>: <li block-type="ListItem"> Ürün, seyreltildikten sonra hemen kullanılmalıdır. Seyreltilmiş çözelti dondurulmamalıdır. Mikrobiyolojik açıdan bakıldığında, infüzyon için hazırlanan çözelti hemen kullanılmalıdır. Hemen kullanılmayacak olduğu takdirde, kullanım sırasındaki saklama süreleri ve kullanımdan önceki koşullar kullanıcının sorumluluğundadır ve seyreltme, kontrollü ve valide edilmiş aseptik koşullarda yapılmadıkça, normalde 2°C ila 8°C'de 24 saatten veya oda sıcaklığında (25°C'ye kadar) 12 saatten uzun olmayacaktır.</li>
+  P[11]:
+    <ListItem>: <li block-type="ListItem"> Eğer buzdolabında saklanmışsa, kullanılmadan önce intravenöz torbaların oda sıcaklığına gelmesi beklemelidir. İnfüzyon çözeltisini steril, proteine düşük bağlanma özellikli 0,2 veya 0,22 mikron in-line filtre kullanarak 1 saat boyunca intravenöz yoldan uygulayınız.</li>
+    <ListItem>: <li block-type="ListItem"> Aynı infüzyon hattından başka ilaçları birlikte uygulamayınız.</li>
+    <ListItem>: <li block-type="ListItem"> IMFINZITM tek kullanımlıktır. Flakonda kalan kısım varsa imha edilmelidir.</li>
+    <Text>: Kullanılmamış olan ürünler ya da atık materyaller "Tıbbi Atıkların Kontrolü Yönetmeliği" ve "Ambalaj Atıklarının Kontrolü Yönetmeliği"ne uygun olarak imha edilmelidir.

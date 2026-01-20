@@ -1,0 +1,7 @@
+chainlit>=1.3.0
+dspy-ai>=2.4.0
+google-generativeai
+cerebras_cloud_sdk
+python-dotenv
+pandas
+plotly
