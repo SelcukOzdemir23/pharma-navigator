@@ -1,6 +1,6 @@
 # Core Dependencies
-chainlit>=1.0.0
 dspy-ai>=2.5.0
+gradio>=4.31.0
 # chromadb>=0.5.0  # Python 3.14 ile uyumsuz (onnxruntime dependency)
 sentence-transformers>=3.0.0
 python-dotenv>=1.0.0
@@ -22,6 +22,10 @@ cloudpickle>=3.0.0
 
 # Optional: Cerebras SDK (if they have one, otherwise use OpenAI-compatible endpoint)
 # cerebras-cloud-sdk>=1.0.0
+
+# PDF Processing Pipeline
+pdfplumber>=0.10.0  # Lightweight PDF text extraction (Python 3.14 compatible)
+pypdf>=3.17.0  # Alternative PDF reader
 
 # Note: PyTorch will be installed automatically by sentence-transformers
 # If you need GPU support, install pytorch with CUDA separately:

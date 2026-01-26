@@ -43,11 +43,7 @@ logs/
 .env.local
 .env.*
 
-# Veri (ham ve ağır içerikler)
-# Ham PDF’leri git takibinden çıkar
-data/pdfs/**
-# İsteğe bağlı: kurum içi ham veri
-data/**/pdfs/**
+
 
 # (Not) TONL ve master_index varsayılan olarak izlenir.
 # Büyük/özel veri paylaşımlarında aşağıdaki satırları açabilirsiniz:

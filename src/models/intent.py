@@ -1,7 +1,7 @@
 """Intent classification using DSPy signatures."""
 
 import dspy
-from typing import Literal
+from typing import Literal, Optional
 
 
 class IntentClassifier(dspy.Signature):
@@ -28,6 +28,22 @@ class IntentClassifier(dspy.Signature):
     )
 
 
+class SectionInference(dspy.Signature):
+    """Kullanıcı sorusundan prospektüs bölümünü tahmin eder."""
+    
+    user_query: str = dspy.InputField(
+        desc="Kullanıcının sorduğu soru (Türkçe)"
+    )
+    
+    inferred_section: str = dspy.OutputField(
+        desc="Soruyla ilgili bölüm: 'yan_etkiler', 'kullanım', 'uyarılar', 'etkileşimler', 'doz_aşımı', 'saklama', 'endikasyonlar', 'genel'. Emin değilsen 'genel' yaz."
+    )
+    
+    confidence: Literal["yüksek", "orta", "düşük"] = dspy.OutputField(
+        desc="Tahmin güvenilik düzeyi"
+    )
+
+
 class RefusalHandler(dspy.Signature):
     """Ilaç dışı sorular için nazik reddetme mesajı üretir."""
     
@@ -50,6 +66,8 @@ def classify_intent(query: str, lm: dspy.LM) -> dict:
             'is_drug_related': bool,
             'drug_names': list[str],
             'reasoning': str,
+            'inferred_section': str,
+            'section_confidence': str,
             'refusal_message': str | None
         }
     """
@@ -71,8 +89,17 @@ def classify_intent(query: str, lm: dspy.LM) -> dict:
             'is_drug_related': result.is_drug_related,
             'drug_names': drug_names,
             'reasoning': result.reasoning,
+            'inferred_section': 'genel',
+            'section_confidence': 'düşük',
             'refusal_message': None
         }
+        
+        # Infer section from query if drug-related
+        if result.is_drug_related:
+            section_inference = dspy.Predict(SectionInference)
+            section_result = section_inference(user_query=query)
+            response['inferred_section'] = section_result.inferred_section.lower().replace(" ", "_")
+            response['section_confidence'] = section_result.confidence
         
         # Generate refusal message if needed
         if not result.is_drug_related:

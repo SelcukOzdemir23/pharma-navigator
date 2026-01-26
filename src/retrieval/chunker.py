@@ -28,88 +28,148 @@ def detect_section(text: str) -> str:
     """
     text_lower = text.lower()
     
-    # Bölüm başlıklarını tespit et
+    # Daha güçlü pattern matching
     section_patterns = {
-        "kullanım": ["kullan", "nasıl kullan", "doz", "uygulama"],
-        "yan etkiler": ["yan etki", "olası yan", "istenmeyen etki"],
-        "uyarılar": ["uyar", "dikkat", "kullanmadan önce", "kullanmayınız"],
-        "etkileşimler": ["etkileşim", "diğer ilaçlar", "birlikte kullan"],
-        "bileşim": ["bileşim", "etkin madde", "içindekiler", "yardımcı madde"],
-        "saklama": ["saklama", "muhafaza", "son kullanma"],
-        "genel bilgi": ["nedir", "ne için kullan", "tanım", "özet"]
+        "yan etkiler": [
+            "yan etki", "olası yan", "istenmeyen etki", "adverse", 
+            "side effect", "yan tesir", "olumsuz etki"
+        ],
+        "kullanım": [
+            "nasıl kullan", "kullanım şekli", "doz", "dozaj", "uygulama", 
+            "alınır", "verilir", "enjekte", "tablet", "mg", "günde", 
+            "sabah", "akşam", "aç", "tok", "yemek"
+        ],
+        "bileşim": [
+            "bileşim", "etkin madde", "içindekiler", "yardımcı madde", 
+            "aktif madde", "formül", "mg", "içerir", "eşdeğer"
+        ],
+        "uyarılar": [
+            "uyar", "dikkat", "kullanmadan önce", "kullanmayınız", 
+            "kontrendik", "yasak", "tehlike", "risk", "sakın"
+        ],
+        "etkileşimler": [
+            "etkileşim", "diğer ilaçlar", "birlikte kullan", "beraber", 
+            "kombinasyon", "ilaç ilaç", "alkol", "gıda"
+        ],
+        "doz aşımı": [
+            "doz aşımı", "fazla kullan", "aşırı doz", "overdoz", 
+            "zehirlenme", "intoksikasyon"
+        ],
+        "saklama": [
+            "saklama", "muhafaza", "son kullanma", "depolama", 
+            "sıcaklık", "ışık", "nem", "çocuk"
+        ],
+        "endikasyonlar": [
+            "ne için kullan", "nedir", "endikasyon", "tedavi", 
+            "hastalık", "semptom", "belirti", "şikayet"
+        ]
     }
     
+    # Skorlama sistemi - birden fazla keyword eşleşirse daha güvenilir
+    section_scores = {}
     for section, keywords in section_patterns.items():
-        if any(keyword in text_lower for keyword in keywords):
-            return section
+        score = sum(1 for keyword in keywords if keyword in text_lower)
+        if score > 0:
+            section_scores[section] = score
+    
+    if section_scores:
+        # En yüksek skoru alan bölümü döndür
+        return max(section_scores, key=section_scores.get)
     
     return "genel"
 
 
+def detect_section_from_heading(heading: str) -> str:
+    """Başlık metninden bölüm tespiti (heading sinyali baskın)."""
+    if not heading:
+        return "genel"
+
+    h = heading.lower()
+    if any(k in h for k in ["yan etki", "istenmeyen"]):
+        return "yan etkiler"
+    if any(k in h for k in ["doz aşımı", "fazla kullan", "aşırı doz"]):
+        return "doz aşımı"
+    if any(k in h for k in ["kullanmadan önce", "dikkat", "uyarı"]):
+        return "uyarılar"
+    if any(k in h for k in ["etkileşim", "birlikte kullan", "diğer ilaç"]):
+        return "etkileşimler"
+    if any(k in h for k in ["saklama", "muhafaza", "son kullanma"]):
+        return "saklama"
+    if any(k in h for k in ["bileşim", "etkin madde", "yardımcı madde", "içindekiler"]):
+        return "bileşim"
+    if any(k in h for k in ["ne için kullan", "nedir", "endikasyon"]):
+        return "endikasyonlar"
+    if any(k in h for k in ["nasıl kullan", "doz", "uygulama"]):
+        return "kullanım"
+    return "genel"
+
+
+def _split_markdown_sections(content: str) -> List[Dict[str, str]]:
+    """Başlığı ve gövdesiyle birlikte markdown bölümlerini döndürür."""
+    pattern = re.compile(r"(^#{1,3}\s+.+$)", re.MULTILINE)
+    matches = list(pattern.finditer(content))
+    sections: List[Dict[str, str]] = []
+
+    if not matches:
+        text = content.strip()
+        if text:
+            sections.append({"heading": None, "text": text})
+        return sections
+
+    for idx, match in enumerate(matches):
+        heading_line = match.group(1).strip()
+        heading_text = heading_line.lstrip('#').strip()
+        start = match.end()
+        end = matches[idx + 1].start() if idx + 1 < len(matches) else len(content)
+        body = content[start:end].strip()
+        combined = heading_line + "\n" + body if body else heading_line
+        sections.append({"heading": heading_text, "text": combined.strip()})
+
+    return sections
+
+
 def chunk_drug_document(
     file_path: str,
-    chunk_size: int = 800,
-    chunk_overlap: int = 150
+    chunk_size: int = 1800,
+    chunk_overlap: int = 200,
+    min_chunk_chars: int = 300
 ) -> List[Dict[str, str]]:
-    """İlaç prospektüsünü metadata ile chunk'lara böler.
-    
-    Args:
-        file_path: İlaç dosyasının yolu
-        chunk_size: Chunk boyutu (karakter)
-        chunk_overlap: Chunk'lar arası örtüşme
-        
-    Returns:
-        Her biri şu anahtarları içeren dict listesi:
-        - text: Chunk metni
-        - drug_name: İlaç ismi
-        - section: Bölüm adı
-        - chunk_id: Chunk numarası
-        - source_file: Kaynak dosya
-    """
+    """İlaç prospektüsünü basit ve etkili şekilde chunk'lara böler."""
     drug_name = extract_drug_name(file_path)
     
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Markdown başlıklarına göre bölümleri ayır
-    sections = re.split(r'\n#{1,3}\s+', content)
-    
+    # Basit sliding window chunking
     chunks = []
     chunk_id = 0
+    start = 0
     
-    for section in sections:
-        if not section.strip():
-            continue
+    while start < len(content):
+        end = start + chunk_size
         
-        # Her bölümü daha küçük chunk'lara böl
-        section_text = section.strip()
-        start = 0
+        # Cümle sonunda kes
+        if end < len(content):
+            for i in range(end, max(start + chunk_size//2, end - 200), -1):
+                if content[i] in '.!?\n':
+                    end = i + 1
+                    break
         
-        while start < len(section_text):
-            end = start + chunk_size
+        chunk_text = content[start:end].strip()
+        
+        if len(chunk_text) >= min_chunk_chars:
+            section = detect_section(chunk_text)
             
-            # Cümle ortasında bölmemek için son nokta/yeni satırı bul
-            if end < len(section_text):
-                # Geriye doğru son cümle sonu karakterini ara
-                for i in range(end, start + chunk_size // 2, -1):
-                    if section_text[i] in '.!?\n':
-                        end = i + 1
-                        break
-            
-            chunk_text = section_text[start:end].strip()
-            
-            if chunk_text:
-                chunks.append({
-                    'text': chunk_text,
-                    'drug_name': drug_name,
-                    'section': detect_section(chunk_text),
-                    'chunk_id': chunk_id,
-                    'source_file': str(Path(file_path).name)
-                })
-                chunk_id += 1
-            
-            # Overlap ile bir sonraki chunk'a geç
-            start = end - chunk_overlap if end < len(section_text) else end
+            chunks.append({
+                'text': chunk_text,
+                'drug_name': drug_name,
+                'section': section,
+                'chunk_id': chunk_id,
+                'source_file': str(Path(file_path).name)
+            })
+            chunk_id += 1
+        
+        start = end - chunk_overlap if end < len(content) else end
     
     return chunks
 

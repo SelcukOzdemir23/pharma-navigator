@@ -174,6 +174,16 @@ pharma-navigator/
 - "Python'da liste nasıl oluşturulur?"
 - "Kahve sağlıklı mı?"
 
+### Hızlı Deneme Seti (her ilaç için)
+- **Arvales**: "Arvales nedir ve ne için kullanılır?" · "Arvales nasıl uygulanır, IV/IM farkı?" · "Arveles'in sık yan etkileri neler?"
+- **Augmentin**: "Augmentin'in yaygın yan etkileri?" · "Augmentin ile alkol/varfarin birlikte olur mu?"
+- **Cipralex**: "Cipralex'i kimler kullanmamalı (MAOI, kalp ritmi)?" · "Cipralex aç/tok alınır mı?" · "Cipralex araç kullanımı etkiler mi?"
+- **Coraspin**: "Coraspin kimlerde kontrendike?" · "Coraspin'in kanama riski uyarıları neler?"
+- **Enfluvir**: "Enfluvir nasıl alınır, doz aralığı nedir?" · "Enfluvir'in yaygın yan etkileri?"
+- **Janumet**: "Janumet yemekle mi alınmalı?" · "Janumet'te laktik asidoz riskini artıran durumlar?" · "Janumet hamilelikte kullanılabilir mi?"
+
+**Beklenen çıktı**: Debug bölümünde doğru ilaç adı, ilgili bölüm (kullanım/uyarılar/yan etkiler) ve skorların ~0.6-0.8+ görünmesi; yanıt tarafında kısa, net ve kaynaklı özet.
+
 ### Chainlit UI Özellikleri
 
 Sistem 3 adımda çalışır ve her adım görselleştirilir:

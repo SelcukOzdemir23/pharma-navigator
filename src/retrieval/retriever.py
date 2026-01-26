@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import List, Dict, Optional
 import pickle
 import re
+from difflib import get_close_matches
 
 from .embedder import get_embedder
 
@@ -93,9 +94,26 @@ class DrugRetriever:
             self.metadata_file.unlink()
     
     def extract_drug_names_from_query(self, query: str) -> List[str]:
-        """Sorgudan ilaç isimlerini çıkarır."""
-        potential_drugs = re.findall(r'\b[A-Z][a-zçğıöşü]+\b', query)
-        return potential_drugs
+        """Sorgudan ilaç isimlerini çıkarır ve fuzzy matching ile metadata'ya eşleştirir."""
+        # Büyük harfle başlayan ve alfabetik karakterlerle devam eden kelimeleri yakala
+        potential_drugs = re.findall(r'\b[A-Z][a-zA-Zçğıöşüs0-9]+\b', query)
+        
+        # Veritabanındaki gerçek ilaç isimlerini al
+        available_drugs = list(set(m['drug_name'] for m in self.metadata))
+        
+        # Her potansiyel ilaç ismini veritabanında eşle (exact + fuzzy match)
+        matched_drugs = []
+        for drug in potential_drugs:
+            if drug in available_drugs:
+                # Exact match
+                matched_drugs.append(drug)
+            else:
+                # Fuzzy match (örn: Arvales -> Arveles)
+                close_matches = get_close_matches(drug, available_drugs, n=1, cutoff=0.8)
+                if close_matches:
+                    matched_drugs.append(close_matches[0])
+        
+        return matched_drugs
     
     def retrieve(
         self,

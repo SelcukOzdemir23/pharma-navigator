@@ -17,10 +17,10 @@ dimensions = 768
 device = "cpu"  # cpu or cuda
 
 [retrieval]
-chunk_size = 800
-chunk_overlap = 150
-top_k = 5
-similarity_threshold = 0.65
+chunk_size = 1800
+chunk_overlap = 200
+top_k = 8
+similarity_threshold = 0.5
 
 [database]
 path = "./faiss_db"
