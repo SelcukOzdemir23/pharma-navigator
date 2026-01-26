@@ -1,0 +1,41 @@
+# Pharma Navigator Configuration
+
+[app]
+name = "Pharma Navigator"
+version = "1.0.0"
+description = "RAG-based drug information assistant"
+
+[llm]
+provider = "cerebras"
+model = "llama3.1-8b"
+temperature = 0.2
+max_tokens = 1024
+
+[embedding]
+model = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+dimensions = 768
+device = "cpu"  # cpu or cuda
+
+[retrieval]
+chunk_size = 800
+chunk_overlap = 150
+top_k = 5
+similarity_threshold = 0.65
+
+[database]
+path = "./faiss_db"
+collection_name = "faiss_index"
+
+[intent]
+# Intent classification thresholds
+confidence_threshold = 0.7
+
+[data]
+source_dir = "./data/pdfs"
+supported_formats = [".md", ".txt"]
+
+[ui]
+title = "💊 Pharma Navigator"
+description = "İlaç prospektüsü bilgi asistanı"
+show_sources = true
+show_confidence = true

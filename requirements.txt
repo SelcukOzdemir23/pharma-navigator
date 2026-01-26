@@ -1,7 +1,28 @@
-chainlit>=1.3.0
-dspy-ai>=2.4.0
-google-generativeai
-cerebras_cloud_sdk
-python-dotenv
-pandas
-plotly
+# Core Dependencies
+chainlit>=1.0.0
+dspy-ai>=2.5.0
+# chromadb>=0.5.0  # Python 3.14 ile uyumsuz (onnxruntime dependency)
+sentence-transformers>=3.0.0
+python-dotenv>=1.0.0
+
+# Vector DB Alternative (Python 3.14 uyumlu)
+faiss-cpu>=1.7.4
+
+# Configuration
+tomli>=2.0.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Pickle için (FAISS index kaydetmek için)
+joblib>=1.3.0
+
+# DSPy dependency
+cloudpickle>=3.0.0
+
+# Optional: Cerebras SDK (if they have one, otherwise use OpenAI-compatible endpoint)
+# cerebras-cloud-sdk>=1.0.0
+
+# Note: PyTorch will be installed automatically by sentence-transformers
+# If you need GPU support, install pytorch with CUDA separately:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
